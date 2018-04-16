@@ -5,22 +5,6 @@ import java.util.List;
 import java.util.Queue;
 import java.util.Stack;
 
-//class BitNode {
-//	private Object data;
-//	private BitNode lChild;
-//	private BitNode rChild;
-//	private boolean visited;
-//	public BitNode(Object data) {
-//		this.data = data;
-//	}
-//	public boolean getVisited() {
-//		return visited;
-//	}
-//	public void setVisited(boolean visited) {
-//		this.visited = visited;
-//	}
-//}
-
 class BiTree {
 	private class BitNode {
 		private Object data;
