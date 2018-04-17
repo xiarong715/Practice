@@ -65,8 +65,8 @@ public class LinkReverse {
 		}
 		Node.print(head);
 		System.out.println("**********************************");
-		//head.setNext(Node.reverseListD(head.getNext())); // µÝ¹é
-		Node.reverseList(head); // ·ÇµÝ¹é
+		head.setNext(Node.reverseListD(head.getNext())); // µÝ¹é
+	//	Node.reverseList(head); // ·ÇµÝ¹é
 		Node.print(head);
 	}
 }
