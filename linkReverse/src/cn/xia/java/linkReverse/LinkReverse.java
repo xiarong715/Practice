@@ -42,6 +42,9 @@ class Node {
 		
 		return head;
 	}
+	public static Node reverseListD(Node head) { // µİ¹éÄæĞòÁ´±í
+		return null;
+	}
 }
 
 public class LinkReverse {
