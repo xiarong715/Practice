@@ -43,7 +43,14 @@ class Node {
 		return head;
 	}
 	public static Node reverseListD(Node head) { // µİ¹éÄæĞòÁ´±í
-		return null;
+		if (head == null || head.next == null) {
+			return head;
+		}
+		Node newHead = reverseListD(head.next);
+		head.next.next = head;
+		head.next = null;
+		
+		return newHead;
 	}
 }
 
@@ -58,8 +65,8 @@ public class LinkReverse {
 		}
 		Node.print(head);
 		System.out.println("**********************************");
-		Node.reverseList(head);
+		//head.setNext(Node.reverseListD(head.getNext())); // µİ¹é
+		Node.reverseList(head); // ·Çµİ¹é
 		Node.print(head);
 	}
-
 }
